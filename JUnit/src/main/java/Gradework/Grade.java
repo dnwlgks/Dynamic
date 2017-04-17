@@ -8,7 +8,7 @@ public class Grade {
 		try{
 			if(i<0 || i>35 ||j<0 || j>35 ||k<0 || k>30 );
 		}catch(Exception e){
-			System.out.println(e.getMessage());
+			//System.out.println(e.getMessage());
 		}
 		sum=i+j+k;
 		if(sum>=80)
